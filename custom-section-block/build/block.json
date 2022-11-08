@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/custom-section-block",
+  "version": "0.1.0",
+  "title": "Custom Section Block",
+  "category": "widgets",
+  "icon": "align-wide",
+  "description": "Custom section block for wpmedia assessment",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-section-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 4
+    }
+  }
+}

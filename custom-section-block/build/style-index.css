@@ -1,0 +1,64 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.features-main-wrapper {
+  margin-top: -32px !important;
+}
+
+.wp-block-create-block-custom-section-block {
+  background-color: transparent;
+  color: black;
+  padding: 2px;
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.wp-block-create-block-custom-section-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-features, .wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-main-feature {
+  width: calc(25% - 120px);
+  margin: 25px 25px;
+  padding: 40px 35px 20px;
+}
+.wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-features h2, .wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-main-feature h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-features p, .wp-block-create-block-custom-section-block.has-4-columns .wp-block-create-block-main-feature p {
+  font-size: 16px;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-main-feature {
+  background: #343A49;
+  border-radius: 5px;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-main-feature h2 {
+  color: white;
+  margin-bottom: 20px !important;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-main-feature p {
+  margin: 0;
+  color: #fff;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-main-feature p.wp-block-create-block-blue {
+  color: #40B1D0;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-main-feature img {
+  margin-top: 15px;
+}
+.wp-block-create-block-custom-section-block .wp-block-create-block-features p {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2392156863);
+  min-height: 185px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
