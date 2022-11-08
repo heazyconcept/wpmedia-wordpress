@@ -1,0 +1,12 @@
+{
+    "core": null,
+    "themes":[
+        "./wpmedia"
+    ],
+    "plugins":[
+      "./custom-section-block"
+    ],
+    "config": {
+      "WP_DEBUG_DISPLAY": true
+    }
+  }
