@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.features-main-wrapper {
+    margin-top: -32px!important;
+}
+.wp-block-create-block-custom-section-block {
+	background-color: transparent;
+	color: black;
+	padding: 2px;
+	max-width: 100%!important;
+	width: 100%;
+}
+.wp-block-create-block-custom-section-block{
+	display: flex;
+	flex-wrap: wrap;
+	&.has-4-columns{
+		.wp-block-create-block-features, .wp-block-create-block-main-feature{
+			width: calc((100%/4) - 120px);
+			margin: 25px 25px;
+			padding: 40px 35px 20px;
+			h2{
+				margin: 0;
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 35px;
+			}
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+	.wp-block-create-block-main-feature {
+		background: #343A49;
+		border-radius: 5px;
+		h2{
+			color: white;
+			margin-bottom: 20px!important;
+		}
+		p{
+			margin: 0;
+			color: #fff;
+			&.wp-block-create-block-blue{
+				color: #40B1D0;
+			}
+		}
+		img{
+			margin-top: 15px;
+		}
+
+	}
+	.wp-block-create-block-features {
+		p{
+			padding-bottom: 30px;
+			border-bottom: 1px dotted #0000003d;
+			min-height: 185px;
+		}
+	}
+}
+// 
